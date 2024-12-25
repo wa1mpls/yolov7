@@ -1,0 +1,13 @@
+train: ./chess/train.txt
+val: ./chess/valid.txt
+test: ./chess/test.txt
+
+nc: 12
+names: ['Brown Bishop', 'Brown King', 'Brown Knight', 'Brown Pawn', 'Brown Queen', 'Brown Rook', 'White Bishop', 'White King', 'White Knight', 'White Pawn', 'White Queen', 'White Rook']
+
+roboflow:
+  workspace: junior-zyvtn
+  project: chess-pieces-d0yt3
+  version: 12
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/junior-zyvtn/chess-pieces-d0yt3/dataset/12
